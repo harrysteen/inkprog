@@ -1,0 +1,176 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar styles */
+.nav-bar {
+    background-color: #17388E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-bar h1 {
+    font-size: 24px;
+}
+
+.nav-links span {
+    margin-right: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-bar button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Burger menu styles (if you plan to implement one) */
+.burger {
+    display: none;
+}
+
+/* Transform section styles */
+.transfrom {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.sub-transfrom1 {
+    font-size: 36px;
+    color: #17388E;
+}
+
+.sub-transfrom2 {
+    font-size: 24px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+/* Works section styles */
+.work {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.work h1 {
+    font-size: 36px;
+    color: #17388E;
+}
+
+/* Branding styles */
+.Branding {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Branding h2 {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #707070;
+}
+
+/* UI/UX section styles (customize as needed) */
+.uiux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.uiux img {
+    margin-right: 20px;
+}
+
+/* Services section styles (customize as needed) */
+.services {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.services h1 {
+    font-size: 36px;
+    color: #17388E;
+}
+
+.services1 img {
+    margin: 10px;
+}
+
+.services2 h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #17388E;
+}
+
+.services3 h3 {
+    font-size: 16px;
+    color: #707070;
+    margin: 10px 0;
+}
+
+/* Testimonials section styles (customize as needed) */
+.testmonials {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.testmonials h1 {
+    font-size: 36px;
+    color: #17388E;
+}
+
+/* Contact Us section styles (customize as needed) */
+.contact {
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact h1 {
+    font-size: 36px;
+    color: #17388E;
+}
+
+.contect-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #17388E;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
